@@ -182,7 +182,7 @@ function install_unit_and_rules() {
 	sudo install -Dm644 /dev/stdin /usr/share/polkit-1/actions/io.github.matejsmycka.linux-id.policy <<'EOF'
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
-  "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+  "https://specifications.freedesktop.org/PolicyKit/1.0/policyconfig.dtd">
 <policyconfig>
   <vendor>linux-id</vendor>
   <action id="io.github.matejsmycka.linux-id.authenticate">
